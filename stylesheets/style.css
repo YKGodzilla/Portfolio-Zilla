@@ -1,0 +1,263 @@
+.gradient-background {
+    background: linear-gradient(300deg, #c91484, #68f6aa);
+    background-size: 180% 180%;
+    animation: gradient-animation 12s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+* p {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.body{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+/* .full-nav {
+    box-shadow: 0px 3px 15px rgba(173, 173, 173, 0.34);
+} */
+
+.navbar {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    height: 80px;
+    color: gray;
+}
+
+#logo-main {
+    width: 160px;
+}
+
+#logo-2 {
+    width: 100px;
+}
+
+.banner {
+    height: auto;
+    padding-bottom: 35px !important;
+}
+
+.banner-zilla {
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 100% 50%;
+}
+
+.banner-text {
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+.btn {
+    font-weight: 500;
+}
+
+.intro-box {
+    border-radius: 10px;
+}
+
+.intro-section{
+    background-color: #0076F1;
+    color: white;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.54) inset;
+}
+
+.profile-dp {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.84);
+}
+
+.dp {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 20%;
+}
+
+.shape {
+    width: 400px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.64);
+}
+
+#cris {
+    width: 200px;
+    margin-top: -200px;
+}
+
+.hobbies {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.hobbies-section {
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+#void {
+    height: 250px;
+}
+
+.pro-divide {
+    padding-bottom: 50px;
+}
+
+#cris-text {
+    font-size: 2rem;
+    color: white;
+}
+
+#tifa {
+    width: 300px;
+    margin-top: -190px;
+}
+
+#void > h2 {
+    margin-bottom: 50px;
+}
+
+@media (max-width: 992px) {
+    p {
+        font-size: 2rem;
+    }
+    .navbar {
+        height: 150px;
+        font-size: 2rem;
+    }
+    #logo-main {
+        width: 280px;
+    }
+    #logo-2 {
+        width: 190px;
+    }
+    .navbar-toggler {
+        width: 90px;
+        height: 90px;
+        margin-right: 40px;
+    }
+    .navbar-toggler-icon {
+        width: 70px;
+        height: 70px;
+    }
+    .banner-zilla {
+        margin-top: 50px;
+        height: 650px;
+        width: 650px;
+    }
+    .banner {
+        padding-bottom: 60px !important;
+    }
+    .banner-text {
+        text-align: center;
+        padding: 50px 0px 0px 0px;
+    }
+    #banner-title {
+        font-size: 6.5rem !important;
+    }
+    .btn {
+        font-size: 1.8rem;
+    }
+    .ban-img {
+        display: flex;
+        justify-content: center;
+    }
+    .profile-dp {
+        width: 300px;
+        height: 300px;
+    }
+    .dp {
+        width: 270px;
+        height: 270px;
+    }
+    #intro-title {
+        font-size: 3.5rem !important;
+    }
+    #intro-sub {
+        font-size: 2.3rem;
+    }
+    .intro-section {
+        padding: 140px 0px !important;
+    }
+    #project-title {
+        font-size: 4rem !important;
+    }
+    .project-section {
+        height: auto;
+        padding: 100px 30px !important;
+    }
+    .card {
+        width: 40rem !important;
+        height: 830px !important;
+    }
+    .card-title {
+        font-size: 3rem;
+    }
+    .shape {
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+        height: 250px;
+    }
+    .hobbies-section {
+        text-align: center;
+        margin-top: 150px;
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    #void {
+        height: 300px;
+    }
+    .pro-divide > hr {
+        width: 270px !important;
+    }
+    .pro-divide > svg {
+        width: 80px;
+        height: 80px;
+    }
+    #cris {
+        width: 300px;
+        margin-top: -300px;
+    }
+    #cris-text {
+        font-size: 3rem;
+        padding-top: 20px;
+    }
+    #void > h2 {
+        font-size: 4rem !important;
+    }
+    #tifa {
+        width: 410px;
+        margin-top: -230px;
+    }
+    #tifa-top {
+        padding-bottom: 220px;
+    }
+    svg {
+        width: 40px;
+        height: 40px;
+    }
+    #footer-text {
+        font-size: 1.5rem !important;
+    }
+}

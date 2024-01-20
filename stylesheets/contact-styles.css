@@ -1,0 +1,99 @@
+.body{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+p {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.navbar {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    height: 80px;
+    color: gray;
+}
+
+#logo-main {
+    width: 160px;
+}
+
+#logo-2 {
+    width: 100px;
+}
+
+.contact-banner {
+    background-color: #0076F1;
+    padding: 40px 0px;
+    box-shadow: 0px 4px 11px 2px rgba(0, 0, 0, 0.34) inset;
+}
+
+#contact-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.social-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 9px 1px gray;
+}
+
+
+
+@media (max-width: 992px) {
+    p {
+        font-size: 2rem;
+    }
+    .navbar {
+        height: 150px;
+        font-size: 2rem;
+    }
+    #logo-main {
+        width: 280px;
+    }
+    .navbar-toggler {
+        width: 90px;
+        height: 90px;
+        margin-right: 40px;
+    }
+    .navbar-toggler-icon {
+        width: 70px;
+        height: 70px;
+    }
+    .contact-banner {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    #logo-2 {
+        width: 190px;
+    }
+    #contact-title {
+        font-size: 6.5rem;
+    }
+    .social-circle {
+        width: 210px;
+        height: 210px;
+    }
+    svg {
+        width: 40px;
+        height: 40px;
+    }
+    .icon-focus {
+        width: 100px;
+        height: 100px;
+    }
+    .space-row {
+        margin-top: 140px !important;
+        margin-bottom: 200px !important;
+    }
+    .icon-spacing {
+        margin-top: 160px;
+    }
+    #footer-text {
+        font-size: 1.5rem !important;
+    }
+}

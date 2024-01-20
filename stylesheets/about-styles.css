@@ -1,0 +1,119 @@
+.body{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+p {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.navbar {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    height: 80px;
+    color: gray;
+}
+
+#logo-main {
+    width: 160px;
+}
+
+#logo-2 {
+    width: 100px;
+}
+
+.about-banner {
+    padding: 70px;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.14) inset;
+}
+
+#about-title {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.social-grid {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 50px 50px 50px;
+    width: 150px;
+}
+
+#about-zilla {
+    width: 500px;
+    height: 290px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.questionaire {
+    background-color: #0076F1;
+    border-radius: 10px;
+    width: 800px;
+    padding: 30px 30px;
+}
+
+.question-titles {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+@media (max-width: 992px) {
+    body {
+        text-align: center;
+    }
+    p {
+        font-size: 2rem;
+    }
+    .navbar {
+        height: 150px;
+        font-size: 2rem;
+    }
+    #logo-main {
+        width: 280px;
+    }
+    #logo-2 {
+        width: 190px;
+    }
+    .navbar-toggler {
+        width: 90px;
+        height: 90px;
+        margin-right: 40px;
+    }
+    .navbar-toggler-icon {
+        width: 70px;
+        height: 70px;
+    }
+    .about-banner {
+        padding: 100px 70px 70px 70px;
+    }
+    #about-title {
+        font-size: 7rem;
+    }
+    #about-zilla {
+        margin-top: 40px;
+        width: 880px;
+        height: 580px;
+    }
+    svg {
+        width: 40px;
+        height: 40px;
+    }
+    .social-grid {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 80px 80px 80px;
+        width: 240px;
+    }
+    .question-titles {
+        font-size: 3.5rem;
+    }
+    .about-section {
+        padding: 200px 12px !important;
+    }
+    #footer-text {
+        font-size: 1.5rem !important;
+    }
+}
